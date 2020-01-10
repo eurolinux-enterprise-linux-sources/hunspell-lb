@@ -2,7 +2,7 @@ Name: hunspell-lb
 Summary: Luxembourgish hunspell dictionaries
 %define upstreamid 20121128
 Version: 0.%{upstreamid}
-Release: 1%{?dist}
+Release: 2%{?dist}
 Source: http://downloads.spellchecker.lu/packages/OOo3/SpellcheckerLu.oxt
 Group: Applications/Text
 URL: http://spellchecker.lu
@@ -48,6 +48,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/mythes/th_lb_LU_v2.*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.20121128-2
+- Mass rebuild 2013-12-27
+
 * Thu Jan 31 2013 Caolán McNamara <caolanm@redhat.com> - 0.20110821-1
 - Resolves: rhbz#905966 latest version
 
